@@ -1,0 +1,9 @@
+version: '3'
+services:
+  flask-app:
+    container_name: new-flask-container
+    build: .
+    ports:
+      - "4000:5000"
+    env_file:
+      - H:\codes\Python\pyrhonWithDocker\.env

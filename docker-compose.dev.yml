@@ -1,0 +1,5 @@
+version: '3'
+services:
+  flask-app:
+    volumes:
+      - H:\codes\Python\pyrhonWithDocker:/app
